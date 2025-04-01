@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pizza Order Form</h1>
+    <h2>Customer Name</h2>
+
+    <form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" ><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" >
+</form>
+
+<h2>The select size</h2>
+
+<p>The select your pizza size.</p>
+
+<form action="/action_page.php">
+  <label for="pizza">Choose a size:</label>
+  <select name="pizza" id="pizza">
+    <option value="small">small</option>
+    <option value="madium">medium</option>
+    <option value="large">large</option>
+    <option value="extra large">extra large</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h2>Choose Toppings</h2>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="Topping1" name="Topping1" value="Pepperioni">
+  <label for="Topping1"> Pepperoni</label><br>
+  <input type="checkbox" id="Topping2" name="Topping2" value="Onions">
+  <label for="Topping2"> Onions</label><br>
+  <input type="checkbox" id="Topping3" name="Topping3" value="Mushrooms">
+  <label for="Topping3"> Mushrooms</label><br><input type="checkbox" id="Topping4" name="Topping4" value="Black Olives">
+  <label for="Topping1"> Black Olives</label><br>
+  <input type="checkbox" id="Topping5" name="Topping5" value="Bell Peppers">
+  <label for="Topping2"> Bell Peppers</label><br>
+  <input type="checkbox" id="Topping6" name="Topping6" value="Extra Cheese">
+  <label for="Topping3">Extra Cheese</label><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h2>The textarea element</h2>
+
+<form action="/action_page.php">
+  <p><label for="Delivery instructions">Delivery instructions:</label></p>
+  <textarea id="Delivery instructions" name="Delivery instructions" rows="4" cols="50"></textarea>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+    
+</body>
+</html>
