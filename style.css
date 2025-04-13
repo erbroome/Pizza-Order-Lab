@@ -1,0 +1,33 @@
+body {
+    background-color: #F4E285;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center}
+/* Ensure your HTML file correctly links to this CSS file */
+h1 {
+    color: #BC4B51;}
+/* Check if the file path in your HTML file is correct and matches this CSS file's location */
+h2 {
+    color: #5B8E7D;}
+/* Ensure the HTML file is saved in the same directory as this CSS file or adjust the path accordingly */
+label {
+    color: #4A4A4A;}
+
+p {
+    color: #4A4A4A;font-weight: bold;
+    font-size: 20px;}
+/* Ensure the HTML file is correctly linked to this CSS file */
+ table {
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #F4A259;
+    border: 8px solid #8CB369;
+    text-align: center;}     
+/* Ensure the HTML file is correctly linked to this CSS file */   
+
