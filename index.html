@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <header></header>
+  <main></main>
+  <footer></footer>
   <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,61 +15,60 @@
     </h1>
     <h2>Customer Name</h2>
 
-    <form>
+    <form id="myForm">
   <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" ><br>
+  <input type="text" id="fName" name="fname" ><br>
   <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" >
-</form>
+  <input type="text" id="lName" name="lname" ><br>
+  <label for="address">Address:</label><br>
+  <input type="text" id="address" name="address" ><br>
+
 
 <h2>The select size</h2>
 
 <p>The select your pizza size.</p>
 
-<form action="/action_page.php">
-  <label for="pizza">Choose a size:</label>
-  <select name="pizza" id="pizza">
+
+  <label for="sizes">Choose a size:</label>
+  <select name="sizes" id="sizes">
     <option value="small">small</option>
     <option value="madium">medium</option>
     <option value="large">large</option>
     <option value="extra large">extra large</option>
   </select>
   <br><br>
-  <input type="submit" value="Submit">
-</form>
-
+  
 <h2>Choose Toppings</h2>
 
-<form action="/action_page.php">
-  <input type="checkbox" id="Topping1" name="Topping1" value="Pepperioni">
-  <label for="Topping1"> Pepperoni</label><br>
-  <input type="checkbox" id="Topping2" name="Topping2" value="Onions">
-  <label for="Topping2"> Onions</label><br>
-  <input type="checkbox" id="Topping3" name="Topping3" value="Mushrooms">
-  <label for="Topping3"> Mushrooms</label><br><input type="checkbox" id="Topping4" name="Topping4" value="Black Olives">
-  <label for="Topping1"> Black Olives</label><br>
-  <input type="checkbox" id="Topping5" name="Topping5" value="Bell Peppers">
-  <label for="Topping2"> Bell Peppers</label><br>
-  <input type="checkbox" id="Topping6" name="Topping6" value="Extra Cheese">
-  <label for="Topping3">Extra Cheese</label><br><br>
-  <input type="submit" value="Submit">
-</form>
+
+  <input type="checkbox" id="topping1" name="topping1" value="Pepperioni">
+  <label for="topping1"> Pepperoni</label><br>
+  <input type="checkbox" id="topping2" name="topping2" value="Onions">
+  <label for="topping2"> Onions</label><br>
+  <input type="checkbox" id="topping3" name="topping3" value="Mushrooms">
+  <label for="topping3"> Mushrooms</label><br><input type="checkbox" id="topping4" name="topping4" value="Black Olives">
+  <label for="topping4"> Black Olives</label><br>
+  <input type="checkbox" id="topping5" name="topping5" value="Bell Peppers">
+  <label for="topping5"> Bell Peppers</label><br>
+  <input type="checkbox" id="topping6" name="topping6" value="Extra Cheese">
+  <label for="topping6">Extra Cheese</label><br><br>
+  
 
 <h2>Anything we need to know?</h2>
 
-<form action="/action_page.php">
-  <p><label for="Delivery instructions">Delivery instructions:</label></p>
-  <textarea id="Delivery instructions" name="Delivery instructions" rows="4" cols="50"></textarea>
+
+  <p><label for="Delivery Instructions">Delivery Instructions:</label></p>
+  <textarea id="Delivery Instructions" name="Delivery instructions" rows="4" cols="50"></textarea>
   <br>
   <input type="submit" value="Submit">
 </form>
 
 <h2>Active Orders</h2>
 
-<table style="width:100%">
+<table style="width:100%" id="myTable">
   <tr>
     <th>Name</th>
-    <th>Contact</th>
+    <th>Address</th>
     <th>Size</th>
     <th>Toppings</th>
   </tr>
@@ -78,7 +80,7 @@
   </tr>
   <tr>
     <td>Malina Pots</td>
-    <td>987 Arden Wood Dr/td>
+    <td>987 Arden Wood Dr.</td>
     <td>Small</td>
     <td>Black Olives, Extra Cheese</td>
   </tr>
@@ -93,8 +95,18 @@
         <td>789 Elm St</td>
         <td>Large</td>
         <td>Mushrooms, Extra Cheese</td>
+    </tr>
+  <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    
 </table>
 <br><br>
+<script src="script.js" defer></script>
+
 
 
     
